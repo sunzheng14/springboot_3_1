@@ -17,4 +17,8 @@ public class UserController {
         int add = userService.add(2, 3);
         System.out.println("result: " + add);
     }
+
+    public void getName() {
+        userService.getName();
+    }
 }

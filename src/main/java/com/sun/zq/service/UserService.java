@@ -8,4 +8,6 @@ package com.sun.zq.service;
 public interface UserService {
     int add(int a, int b );
 
+    void getName();
+
 }
